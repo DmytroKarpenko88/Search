@@ -1,0 +1,18 @@
+.boxSearch{
+    padding: 10px;
+    margin: auto;
+    max-width: 500px;
+}
+
+.textTemp {
+    padding: 10px 20px ;
+    width: 100%;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+.button {
+    border-radius: 5px;
+    padding: 5px 10px;
+}
