@@ -1,33 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <link rel="stylesheet" href="style.css">
-        <title>Search</title>
-    </head>
-    <body>
-        <div class="boxTop">
-            <a href="index.html">Search</a>
-        </div>
-        <div class="boxCenter">
-
-        </div>
-        <div class="boxBottom">
-            <form action="https://google.com/search">
-            <div class="boxSearch">
-                <input class="textTemp" type="text" name="q">                 
-            </div>
-            <center>
-                <input class="button" type="submit" value="Google Search">
-            </center>
-            
-        </form>
-        </div>
-       
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="g.png" type="image/png">
+</head>
+<body>
+    <div class="buttons">
+        <a href="index.html">На головну</a>
+        
+    </div>
+    <div>
+        <img src="google_logo.png" alt="google logo">
+    </div>
+    <form action="https://www.google.com.ua/search">
+        <input class="text-row" type="text" name="q" >
+        <input type="hidden" name="tbm" value="isch">
         <br>
-
-        <div class="boxSearch">
-            <input class="textTemp" type="text">
-        </div>
-
-    </body>
+        <input class="input-button" type="submit" value="Пошук Google">
+    </form>
+</body>
 </html>
